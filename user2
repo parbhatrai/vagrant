@@ -1,5 +1,0 @@
-#!/bin/bash
-
-sudo useradd test
-sudo runuser -l test -c 'mkdir -p ~/.ssh'
-sudo runuser -l test -c 'cat /vagrant/id_rsa.pub >> /home/test/.ssh/authorised_keys'
