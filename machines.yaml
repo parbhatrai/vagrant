@@ -6,6 +6,8 @@
   private_ip: 10.0.10.10
   scripts:
   - script_for_machine1
+  - jenkins
+  - goscript  
 
 - name: machine2
   box: centos/7

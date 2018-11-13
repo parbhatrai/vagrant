@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+cd /vagrant
+git clone https://github.com/parbhatrai/go-staticsite.git
+cd go-staticsite
+sudo make install
+sudo systemctl start go-staticsite
