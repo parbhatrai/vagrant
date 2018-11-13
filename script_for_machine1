@@ -1,5 +1,0 @@
-#!/bin/bash
-
-sudo useradd test
-sudo runuser -l test -c 'mkdir -p ~/test/.ssh'
-sudo runuser -l test -c 'cp /vagrant/id_rsa /home/test/test/.ssh'
