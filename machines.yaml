@@ -5,7 +5,7 @@
   memory: 2048
   private_ip: 10.0.10.10
   scripts:
-  - user1
+  - script_for_machine1
 
 - name: machine2
   box: centos/7
@@ -13,5 +13,5 @@
   memory: 2048
   private_ip: 10.0.10.11
   scripts:
-  - user2
+  - script_for_machine2
 ...
